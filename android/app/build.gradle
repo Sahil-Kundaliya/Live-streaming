@@ -26,7 +26,7 @@ if (flutterVersionName == null) {
 android {
     namespace = "com.example.live_streaming"
     compileSdkVersion flutter.compileSdkVersion
-    ndkVersion = "25.1.8937393"
+    ndkVersion = "28.0.12433566"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -65,4 +65,5 @@ flutter {
 
 dependencies {
     implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'io.agora.rtc:full-sdk:6.3.2'
 }
